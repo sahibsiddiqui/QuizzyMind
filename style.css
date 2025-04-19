@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #001e4d;
+}
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.app h1{
+    font-size: 45px;
+    text-align: center;
+    color: #001e4d;
+    font-weight: 700;
+    border-bottom: 3px solid #333;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #222;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background: #a2eaf9;
+    color: #fff;
+}
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    width: 20%;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: none;
+}
+.nextbtn-class{
+    text-align: right;
+}
+
+.correct{
+    background-color: #001e4d;
+    background: #9aeabc;
+}
+
+.wrong{
+    background: #ff9393;
+}
