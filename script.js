@@ -45,7 +45,6 @@ const questions = [
         ]
     }
 ]
-//WATCH MAXM JS THEN COPY
 const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById("ans-btns");
 const nextButton = document.getElementById('next-btn');
